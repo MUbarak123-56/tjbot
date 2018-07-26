@@ -11,15 +11,10 @@
 */
 
 // Create the credentials object for export
-exports.credentials = {{
-  "url": "https://stream.watsonplatform.net/speech-to-text/api",
-  "username": "0c7a9279-8534-4a88-8ddc-bb28be4c85b3",
-  "password": "inPUxHIscoBH"
-};
-}
+exports.credentials = {}
 // Watson Speech to Text
 // https://www.ibm.com/watson/services/speech-to-text/
 exports.credentials.speech_to_text = {
-    password: '',
-    username: ''
+    password: '0c7a9279-8534-4a88-8ddc-bb28be4c85b3',
+    username: 'inPUxHIscoBH'
 };
