@@ -31,8 +31,8 @@ exports.credentials.speech_to_text = {
 // Watson Text to Speech
 // https://www.ibm.com/watson/services/text-to-speech/
 exports.credentials.text_to_speech = {
-	password: '',
-	username: ''
+	password: '05mZ6yQiLdEY',
+	username: 'ca72973e-8430-4071-8d59-132ae31bcec2'
 };
 
 // Watson Visual Recognition
