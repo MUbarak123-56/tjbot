@@ -6,7 +6,7 @@
 *  Your password is the smaller value: 12 characters
 */
 
-exports.workspaceId = '1c768dcf-7014-4cbf-97df-580bcff20916'; // replace with the workspace identifier of your conversation
+exports.workspaceId = 'd6cc4fb0-4295-42b2-ba97-ba5bfea99fd3 '; // replace with the workspace identifier of your conversation
 
 // Set this to false if your TJBot does not have a camera.
 exports.hasCamera = true;
