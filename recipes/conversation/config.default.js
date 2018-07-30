@@ -38,5 +38,5 @@ exports.credentials.text_to_speech = {
 // Watson Visual Recognition
 // https://www.ibm.com/watson/services/visual-recognition/
 exports.credentials.visual_recognition = {
-    api_key: ''
+    api_key: 'ubt9Ri10fnOgsT-ZQPIqHwz63ly9ig5mb9O4EqlN0xEv'
 };
