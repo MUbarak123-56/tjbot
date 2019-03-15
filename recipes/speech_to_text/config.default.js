@@ -1,20 +1,17 @@
-/*
-* User-specific configuration
-* IMPORTANT NOTES:
-*  Please ensure you do not interchange your username and password.
-*  Your username is the longer value: 36 digits, including hyphens
-*  Your password is the smaller value: 12 character{
-  "url": "https://stream.watsonplatform.net/speech-to-text/api",
-  "username": "0c7a9279-8534-4a88-8ddc-bb28be4c85b3",
-  "password": "inPUxHIscoBH"
-}s
-*/
+var TJBot = require('tjbot');
+var tj = new TJBot([], {}, {
+tone_analyzer: {
+    apikey: ""
+  }
+});
 
-// Create the credentials object for export
-exports.credentials = {}
-// Watson Speech to Text
-// https://www.ibm.com/watson/services/speech-to-text/
+var text = "I like TJBot so much!";
+
+tj.analyzeTone(text).then(response => {
+  console.log(response);
+});
+exports.credentials = {};
+
 exports.credentials.speech_to_text = {
-    password: '0c7a9279-8534-4a88-8ddc-bb28be4c85b3',
-    username: 'inPUxHIscoBH'
+ apikey: ""
 };
