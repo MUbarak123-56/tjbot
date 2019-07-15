@@ -15,3 +15,6 @@ exports.credentials = {};
 exports.credentials.speech_to_text = {
  apikey: ""
 };
+exports.credentials.tone_analyzer = {
+ apikey: ""
+};
