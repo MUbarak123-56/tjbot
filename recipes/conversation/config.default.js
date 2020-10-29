@@ -13,7 +13,7 @@ tj.analyzeTone(text).then(response => {
 exports.workspaceId = ''; // replace with the workspace identifier of your conversation
 
 // Set this to false if your TJBot does not have a camera.
-exports.hasCamera = true;
+exports.hasCamera = false;
 
 // Create the credentials object for export
 exports.credentials = {};
