@@ -38,9 +38,9 @@ exports.credentials.text_to_speech = {
 
 // Watson Visual Recognition
 // https://www.ibm.com/watson/services/visual-recognition/
-exports.credentials.visual_recognition = {
-    apikey: ""
-};
+//exports.credentials.visual_recognition = {
+//    apikey: ""
+//};
 exports.credentials.tone_analyzer = {
     apikey: ""
 };
